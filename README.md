@@ -49,11 +49,15 @@ Note that on the image on the right (AllStockAnalysis()), after the user is prop
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/OriginalStockCode_2018_Timer.png)
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/UserPrompt_2017Input_example.pgn)
+
 and 
+
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2017AllStocks_Timer.png) 
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/UserPrompt_2018Input_example.png) 
+
 and 
+
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2018AllStocks_Timer.png)
 
 
