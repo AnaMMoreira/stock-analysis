@@ -2,8 +2,8 @@
 green_stocks analysis for Steve using VBA
 
 
+# Use of VBA code to Perform Stock Analysis and the Application of Code Refactoring
 ## Overview of Project: 
-# Use of VBA code to Perform Stock Analysis and the Application of Code Refactoring.
 
 In this project our good friend Steve has given us some data to analyse for his parents investment ventures.  They are interested in investing in some green energy alternatives specifically.  They have invested in a company called DAQO New Energy Corp which makes solar panels and has the ticker DQ.  Steve was interested in the analysis of the past years performance of their stock and had given us stock market data for the years 2017 and 2018.  With the VBA code that was prepared for Steve at the click of a button, he can analyze an entire dataset and see the DQ performance for the past 2 years. 
 
