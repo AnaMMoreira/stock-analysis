@@ -65,7 +65,7 @@ Notice that for the original code it took 0.0625 seconds to run one year worth o
 
 
 ## Summary:
-I can thus be concluded that Refactoring code is most advantageous.  I can definately automate analysis that are run repetitavely and used often on a daily basis.  It acomplishes this by producing reliable results that are fast, uses less process and storage resources, and is user friendly.  Overall this would result in more acurate performance, reducing the need to QAQC results as often, and increase productivity.  Furthermore, the develoment and polishing of existing internal coorporate or standard tools, makes the upgrade or Refactoring of existing code faster to develop and apply. 
+It can thus be concluded that Refactoring code is most advantageous.  I can definately automate analysis that are run repetitavely and used often on a daily basis.  It acomplishes this by producing reliable results that are fast, uses less process and storage resources, and is user friendly.  Overall this would result in more acurate performance, reducing the need to QAQC results as often, decreasing production costs and increase productivity.  Furthermore, the develoment and polishing of existing internal coorporate or standard tools, makes the upgrade or Refactoring of existing code faster to develop and apply. 
 
 
 
