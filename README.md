@@ -16,16 +16,16 @@ Although our code works well for a few stocks, it might not work well for an ext
 
 By modifying the original code to make it more user friendly and flexible, the analysis results allows Steve to view how DQ performs overall in comparisson to the other stoks in the same market segment.  The following tables shows the resulting summary of our expanded analysis.
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Results_AllStocks_2017
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Results_AllStocks_2017.png)
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Results_AllStocks_2018
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Results_AllStocks_2018.png)
 
 Steve can now see that, not only that his parents invested in a company that did not perform well in the past year, but also which companies also underperformed and which companies continued to perform well in the market.  The summary tables can also help him advise his parents which companies continue to do well and might be a better investment.  See Summary Table below.
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Results_AllStocks
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Results_AllStocks.png)
 
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/Refactoring Code
+## Refactoring Code
 
 One way to ensure that a piece of code that has proven to be an efficient tool for a particular application continues to improve is by refactoring the code.  In lamest terms, refactoring means to rewrite existing text to improve readability, reusability, or structure without intentionally detracting from its meaning. Similarly, in the context of coding, refactoring code makes it more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future use without changing meanning or behavior.  This makes Refactoring a standard practice in any data analysis field and is often a starting point at a new job.
 
@@ -38,23 +38,23 @@ The following image provides a side by side comparison.  As can be observed, the
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/code_length.png
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/variable_compare
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/variable_compare.png)
 
 Further the original code uses many more variables than the refractored code wich intuitively means that it uses more memory resources in order to yield a limited set of output (only one ticker and only one year at a time) the image below shows how each code works.
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/compare_for_loops_process
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/compare_for_loops_process.png)
 
 Note that on the image on the right (AllStockAnalysis()), after the user is propted to input a year, each ticker is passed through the same simple loop for each ticker in an array.  This process is not only simpler on paper, but also simpler to solve, and  should process faster and use less memory resources.  To ensure that in fact the processes of the refactored code is faster and more efficient a timer was added and the result printed on screen for both the original code and the refactored code.  The following images shows the resulting run times for each code and what the user input window looks like.   
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/OriginalStockCode_2018_Timer
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/OriginalStockCode_2018_Timer.png)
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/UserPrompt_2017Input_example.pgn)
 and 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2017AllStocks_Timer 
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2017AllStocks_Timer.png) 
 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/UserPrompt_2018Input_example 
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/UserPrompt_2018Input_example.png) 
 and 
-! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2018AllStocks_Timer
+! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2018AllStocks_Timer.png)
 
 
 Notice that for the original code it took 0.0625 seconds to run one year worth of data for one ticker alone.  And for each year, the AllStocksAnalysis Subroutine took ~ 0.715 seconds to process and print the stats for all stocks.  At first hand it looks like the Refactored code may not be much more efficient in runtime because the results sugest that the run time of the original code for each ticker would add up to 0.75 seconds.  But considering that the user would have to add or modify the code each time a new ticker analysis was needed and also format the resulting table (which was also automated) for the original code it can be assumed that it would be much more time consuming.
