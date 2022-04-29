@@ -1,6 +1,6 @@
 # Stock Analysis
 
-# Use of VBA code to Perform Stock Analysis and the Application of Code Refactoring
+# The Use of VBA code to Perform Stock Analysis and the Application of Code Refactoring
 
 ## Overview of Project: 
 
