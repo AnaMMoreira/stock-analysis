@@ -12,7 +12,7 @@ In this project our good friend Steve has given us some data to analyse for his 
 
 The table above shows the results of the code and the DQ performace sumarized in an easy to visualize and interpret format.  However, it also became clear that, eventhough DQ stock performance appeared to skyrocket and increase to close to 200% in 2017, it incured some serious losses of aproximately -63% for 2018.  Steve therefore became increasingly interested in performing the same analysis to the overall green energy market and in seeing and comparing all the stocks of the green energy alternative market. 
 
-Although our code works well for a few stocks, it might not work well for an extensive database of stocks. Such analysis may take a long time to execute and the code would have to be modified for new companies entering the market in the future and not work at all if some of the hardwired tickers are not present. 
+Although our code works well for a few stocks, it might not work well for an extensive database of stocks. Such analysis may take a long time to execute and the code would have to be modified everytime its needed.
 
 By modifying the original code to make it more user friendly and flexible, the analysis results allows Steve to view how DQ performs overall in comparisson to the other stoks in the same market segment.  The following tables shows the resulting summary of our expanded analysis.
 
