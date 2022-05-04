@@ -34,7 +34,7 @@ One way to ensure that a piece of code that has proven to be an efficient tool f
 ## Comparison of original and refactored VBA script
 
 In this challenge, refactoring the previous code to loop through all the data one time in order to collect the same information for all different stocks (Tickers) made sense in order to generate the tables previously shown. The following comparison points out the differences in code and how it affected the scripts performance.  The original code was harwired to perform a particular year and only for the ticker in question "DQ".  Although we added a button to make it more user friendly it originally did not prompt the user to select a Year and the code would have to be manually changed to get each year.  It was repetitive, long and harder to follow. 
-The following image provides a side by side comparison.  As can be observed, the original code in Subroutine DQAnalysis() is much longer and looks more "messy" and therefore harder to follow than the refractored code in Subroutine AllStocksAnalysis().  
+The following image provides a side by side comparison.  As can be observed, the original code in Subroutine DQAnalysis() is much longer and looks more "messy" and therefore harder to follow than the refactored code in Subroutine AllStocksAnalysis().  
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/code_length.png
 
