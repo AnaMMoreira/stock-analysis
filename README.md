@@ -34,7 +34,7 @@ One way to ensure that a piece of code that has proven to be an efficient tool f
 ## Comparison of original and refactored VBA script
 
 In this challenge, refactoring the previous code to loop through all the data one time in order to collect the same information for all different stocks (Tickers) made sense in order to generate the tables previously shown. The following comparison points out the differences in code and how it affected the scripts performance.  The original code was harwired to perform a particular year and only for the ticker in question "DQ".  Although we added a button to make it more user friendly it originally did not prompt the user to select a Year and the code would have to be manually changed to get each year.  It was repetitive, long and harder to follow. 
-The following image provides a side by side comparison.  As can be observed, the original code in Subroutine DQAnalysis() is much longer and looks more "messy" and therefore harder to follow than the refactored code in Subroutine AllStocksAnalysis().  
+The following image provides a side by side comparison.  As can be observed, the original code in Subroutine DQAnalysis() is much longer and looks more "messy" and therefore harder to follow than the refactored code in Subroutine AllStocksAnalysisRefactored().  
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/code_length.png
 
@@ -44,7 +44,7 @@ Further the original code uses many more variables than the refractored code wic
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/compare_for_loops_process.png)
 
-Note that on the image on the right (AllStockAnalysis()), after the user is propted to input a year, each ticker is passed through the same simple loop for each ticker in an array.  This process is not only simpler on paper, but also simpler to solve, and  should process faster and use less memory resources.  To ensure that in fact the processes of the refactored code is faster and more efficient a timer was added and the result printed on screen for both the original code and the refactored code.  The following images shows the resulting run times for each code and what the user input window looks like.   
+Note that on the image on the right (AllStocksAnalysis()), after the user is propted to input a year, each ticker is passed through the same simple loop for each ticker in an array.  This process is not only simpler on paper, but also simpler to solve, and  should process faster and use less memory resources.  To ensure that in fact the processes of the refactored code is faster and more efficient a timer was added and the result printed on screen for both the original code and the refactored code.  The following images shows the resulting run times for each code and what the user input window looks like.   
 
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/OriginalStockCode_2018_Timer.png)
 
@@ -61,7 +61,7 @@ and
 ! [] (https://github.com/AnaMMoreira/stock-analysis/blob/main/Resources/2018AllStocks_Timer.png)
 
 
-Notice that for the original code it took 0.0625 seconds to run one year worth of data for one ticker alone.  And for each year, the AllStocksAnalysis Subroutine took ~ 0.715 seconds to process and print the stats for all stocks.  At first hand it looks like the Refactored code may not be much more efficient in runtime because the results sugest that the run time of the original code for each ticker would add up to 0.75 seconds.  But considering that the user would have to add or modify the code each time a new ticker analysis was needed and also format the resulting table (which was also automated) for the original code it can be assumed that it would be much more time consuming.
+Notice that for the original code it took 0.0625 seconds to run one year worth of data for one ticker alone.  And for each year, the AllStocksAnalysisRefactored Subroutine took ~ 0.715 seconds to process and print the stats for all stocks.  At first hand it looks like the Refactored code may not be much more efficient in runtime because the results sugest that the run time of the original code for each ticker would add up to 0.75 seconds.  But considering that the user would have to add or modify the code each time a new ticker analysis was needed and also format the resulting table (which was also automated) for the original code it can be assumed that it would be much more time consuming.
 
 
 ## Summary:
